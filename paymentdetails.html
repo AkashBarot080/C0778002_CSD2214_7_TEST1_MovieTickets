@@ -5,7 +5,70 @@
     <title>Payment Details</title>
     <link rel="stylesheet" href="./test.css" type="text/css">
     <script src="test.js"></script>
+</head><!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Payment Details</title>
+    <link rel="stylesheet" href="./test.css" type="text/css">
+    <script src="test.js">
+    </script>
 </head>
+
+<body>
+    <div style="display: inline-block;border: 1px solid;border-radius: 5px;background-color: #f4f7f8;height: 580px;width: 595px;">
+        <h1>Confirm Purchase</h1><br>
+        <h2>Total Amount to Pay:$$</h2><br>
+        <div style="padding: 5px 50px;">
+            <h5>Card Holder Name</h5> 
+            <input type="text" id="Card Holder Name" style="margin-left: 15px;" required=""> <br>
+            <h5>Card Number</h5> 
+            <input type="text" id="Card Number" style="margin-left: 15px;" required=""> <br>
+            <h5>CVV</h5> 
+            <input type="text" id="CVV" style="margin-left: 15px;" required=""> <br>
+             <h5>Expiration Date</h5> 
+             <select id="Expiration Date" name="Month" placeholder="Month" required="">
+               <option value=""></option>
+               <option value="">January</option>
+               <option value="">February</option>
+               <option value="">March</option>
+               <option value="">April</option>
+               <option value="">May</option>
+               <option value="">June</option>
+               <option value="">July</option>
+               <option value="">August</option>
+               <option value="">September</option>
+               <option value="">October</option>
+               <option value="">November</option>
+               <option value="">December</option>
+             </select>
+             <select id="Expiration Date" name="Year" placeholder="Year" required="">
+               <option value=""></option>
+               <option value="">2018</option>
+               <option value="">2019</option>
+               <option value="">2020</option>
+               <option value="">2021</option>
+               <option value="">2022</option>
+               <option value="">2023</option>
+               <option value="">2024</option>
+               <option value="">2025</option>
+               <option value="">2026</option>
+               <option value="">2027</option>
+               <option value="">2028</option>
+               <option value="">2029</option>
+               <option value="">2030</option>
+             </select>
+        </div>
+        
+        <div style="padding: 5px 50px;">
+            <input type="submit" value="Confirm" onclick="return myfun()">
+        </div>
+       
+</body>
+<footer>
+  <strong>Akash Barot - Copyright@C0778002, All rights reserved.</strong>
+</footer>
+</html>
 
 <body>
     <div style="display: inline-block;border: 1px solid;border-radius: 5px;background-color: #f4f7f8;height: 580px;width: 595px;">
